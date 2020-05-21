@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "ghpr"
+version = "0.1.0"
+description = "Simple Github PR Puller"
+license = "MIT"
+authors = ["Thomas J Fan <thomasjpfan@gmail.com>"]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+ghpr = "ghpr:main"
